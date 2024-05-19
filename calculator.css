@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW52aXJvbWVudHxlbnwwfHwwfHx8MA%3D%3D") ;
+    background-size: cover;
+}
+.calculator{
+    border: 2px solid black;
+    background-color: rgba(23,23,23,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.8);
+    margin: 10px;
+}
+input{
+    width: 320px;
+    padding: 25px;
+    margin: 10px;
+    background-color: rgba(59, 56, 56, 0.3);
+    box-shadow: 0px 0px 8px rgba(197, 116, 116, 0.8);
+    border: none;
+    font-size: 25px;
+    text-align: right;
+    border-radius: 30px;
+    color: white;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+input::placeholder{
+    color: rgb(252, 249, 249);
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin:10px;
+    border: 0.5px solid rgb(240, 113, 113);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px  0px 10px rgba(197, 116, 116, 0.8);
+    font-size: larger;
+    font-weight: 900;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(255, 111, 0);
+}
+.equalbtn{
+    background-color: rgb(255, 111, 0);
+}
+.operator{
+    color: rgb(249, 248, 248);
+    font-size: 25px;
+}
